@@ -6,7 +6,7 @@ ADSL_CYCLE = 100
 # 拨号出错重试间隔
 ADSL_ERROR_CYCLE = 5
 
-# ADSL命
+# ADSL命令
 ADSL_BASH = 'adsl-stop;adsl-start'
 
 # 代理运行端口
@@ -19,12 +19,10 @@ CLIENT_NAME = 'ads11'
 ADSL_IFNAME = 'ppp0'
 
 # Redis数据库ip
-# REDIS_HOST = 'localhost'
-REDIS_HOST = '114.116.13.33'
+REDIS_HOST = 'localhost'
 
 # Redis数据库密码，如无则填None
-# REDIS_PASSWORD = None
-REDIS_PASSWORD = "mredis333"
+REDIS_PASSWORD = None
 
 # Redis数据库端口
 REDIS_PORT = 6379
